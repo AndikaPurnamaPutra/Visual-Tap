@@ -319,7 +319,7 @@ body {
 }
 .our-features .our-features-bottom .card .card-body {
   max-width: 262px;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 .our-features .our-features-bottom .card .card-body .card-title {
   font-size: 40px;
