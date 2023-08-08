@@ -1,18 +1,18 @@
 @font-face {
   font-family: "eudoxus_sansbold";
-  src: url("/src/assets/fonts/eudoxussans-bold-webfont.woff2") format("woff2"), url("/src/assets/fonts/eudoxussans-bold-webfont.woff") format("woff");
+  src: url("/assets/fonts/eudoxussans-bold-webfont.woff2") format("woff2"), url("/assets/fonts/eudoxussans-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "eudoxus_sansmedium";
-  src: url("/src/assets/fonts/eudoxussans-medium-webfont.woff2") format("woff2"), url("/src/assets/fonts/eudoxussans-medium-webfont.woff") format("woff");
+  src: url("/assets/fonts/eudoxussans-medium-webfont.woff2") format("woff2"), url("/assets/fonts/eudoxussans-medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "eudoxus_sansregular";
-  src: url("/src/assets/fonts/eudoxussans-regular-webfont.woff2") format("woff2"), url("/src/assets/fonts/eudoxussans-regular-webfont.woff") format("woff");
+  src: url("/assets/fonts/eudoxussans-regular-webfont.woff2") format("woff2"), url("/assets/fonts/eudoxussans-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -175,19 +175,19 @@ body {
 }
 @font-face {
   font-family: "eudoxus_sansbold";
-  src: url("/src/assets/fonts/eudoxussans-bold-webfont.woff2") format("woff2"), url("/src/assets/fonts/eudoxussans-bold-webfont.woff") format("woff");
+  src: url("/assets/fonts/eudoxussans-bold-webfont.woff2") format("woff2"), url("/assets/fonts/eudoxussans-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "eudoxus_sansmedium";
-  src: url("/src/assets/fonts/eudoxussans-medium-webfont.woff2") format("woff2"), url("/src/assets/fonts/eudoxussans-medium-webfont.woff") format("woff");
+  src: url("/assets/fonts/eudoxussans-medium-webfont.woff2") format("woff2"), url("/assets/fonts/eudoxussans-medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "eudoxus_sansregular";
-  src: url("/src/assets/fonts/eudoxussans-regular-webfont.woff2") format("woff2"), url("/src/assets/fonts/eudoxussans-regular-webfont.woff") format("woff");
+  src: url("/assets/fonts/eudoxussans-regular-webfont.woff2") format("woff2"), url("/assets/fonts/eudoxussans-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -315,11 +315,11 @@ body {
   border-radius: 52px;
   height: 466px;
   cursor: pointer;
-  transition: all 0s linear;
+  transition: all 0.3s ease;
 }
 .our-features .our-features-bottom .card .card-body {
   max-width: 262px;
-  transition: unset;
+  transition: all 0.3s ease;
 }
 .our-features .our-features-bottom .card .card-body .card-title {
   font-size: 40px;

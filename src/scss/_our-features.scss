@@ -30,10 +30,10 @@
             border-radius: 52px;
             height: 466px;
             cursor: pointer;
-            transition: all 0s linear;
+            transition: all 0.3s ease;
             .card-body {
                 max-width: 262px;
-                transition: unset;
+                transition: all 0.3s ease;
                 .card-title {
                     font-size: $h4-lg;
                     font-family: $eudoxus_sansbold;
